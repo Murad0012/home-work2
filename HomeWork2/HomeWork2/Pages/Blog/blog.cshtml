@@ -1,0 +1,539 @@
+﻿@page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @section Styles{
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    }
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-top-container">
+                <div class="header-top-left">
+                    <i class="fa-brands fa-facebook-f" style="color:#343a40;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #343a40;"></i>
+                    <div class="contact">
+                        <i class="fa-solid fa-phone" style="color: #343a40;"></i>
+                        020-800-456-747
+                    </div>
+                </div>
+                <div class="header-top-middle">
+                    <p>Free in-store delivery</p>
+                </div>
+                <div class="header-top-right">
+                    <p id="english">English <i class="fa-solid fa-chevron-down" id="english-arrow" style="color: #343a40;"></i></p>
+                    <div id="languages">
+                        <a href="">German</a>
+                        <a href="">French</a>
+                    </div>
+                    <p id="usd">USD <i class="fa-solid fa-chevron-down" id="usd-arrow" style="color: #343a40;"></i></p>
+                    <div id="money">
+                        <a href="">EUR</a>
+                        <a href="">GBP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+
+            <div class="header-bottom">
+                <div class="header-bottom-container">
+                    <ul class="header-bottom-left">
+                        <li>Varkala</li>
+                        <div class="home-container">
+                        <li id="home">Home<i class="fa-solid fa-chevron-down" id="home-arrow" style="color: #343a40;"></i></li>
+                        <div id="home-list">
+                            <a href="">Home 1 - Fashion</a>
+                            <a href="">Home 2 - Fashion</a>
+                            <a href="C:\Users\Predator\Desktop\Front-End-Project\Index\page.html">Home 3 - Design <span class="new-icon">New</span></a>
+                            <a href="">Home 4 - Design <span class="new-icon">New</span></a>
+                        </div>
+                </div>
+
+                <div class="shop-container">
+                    <li id="shop">Shop <i id="shop-arrow" class="fa-solid fa-chevron-down" style="color: #343a40;"></i></li>
+                    <div id="shop-list">
+                        <ul class="shop-pages-list">
+                            <h6>Shop pages</h6>
+                            <li>Full width </li>
+                            <li>Full width with category menu </li>
+                            <li>Full width with big products </li>
+                            <li>Fixed width </li>
+                            <li>Fixed width & masonry layout</li>
+                            <li>Subcategories </li>
+                        </ul>
+
+                        <ul class="product-pages-list">
+                            <h6>Product pages</h6>
+                            <li>Product with sticky info</li>
+                            <li>Product with background</li>
+                            <li>Product standard</li>
+                        </ul>
+                        <img src="Images_blog/shop-img.jpg" alt="" style="width: 260px;height: 376px;object-fit:cover;">
+                    </div>
+                </div>
+
+                <div class="icon-container">
+                    <li id="icon">Icons <i id="icon-arrow" class="fa-solid fa-chevron-down" style="color: #343a40;"></i></li>
+                    <div id="icon-list">
+                        <div class="icon-list-top">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+                        </div>
+
+                        <div class="icon-list-middle">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-shirt fa-xl" style="color: #000000;"></i>
+                                Trousers
+                            </div>
+                        </div>
+                        <div class="icon-list-bottom">Don't miss our biggest sales this year. Use the code "SUMMER35" at checkout until Jun. 15!</div>
+                    </div>
+                </div>
+
+                <div class="page-container">
+                    <li id="page">Pages <i class="fa-solid fa-chevron-down" id="page-arrow" style="color: #343a40;"></i></li>
+                    <div id="pages">
+                        <div class="pages-lists">
+                            <img src="Images_blog/megamenu img1.jpg" alt="" style="width: 278px;height: 185px;">
+                            <ul class="pages-list-inside">
+                                <h3>Homepage</h3>
+                                <li>Home 1 - Fashion</li>
+                                <li>Home 2 - Fashion</li>
+                                <li><a href="C:\Users\Predator\Desktop\Front-End-Project\Index\page.html" style="color: #868e96;text-decoration: none;">Home 3 - Design </a> <span class="new-icon-page">New</span></li>
+                                <li>Home 4 - Design <span class="new-icon-page">New</span></li>
+                            </ul>
+
+                            <ul class="pages-list-inside">
+                                <h3>Category</h3>
+                                <li>Full width </li>
+                                <li>Full width with category menu </li>
+                                <li>Full width with big products </li>
+                                <li>Fixed width </li>
+                                <li>Fixed width & masonry layout <span class="new-icon-page">New</span></li>
+                                <li>Subcategories </li>
+                            </ul>
+                        </div>
+
+                        <div class="pages-lists">
+                            <img src="Images_blog/megamenu img2.jpg" alt="" style="width: 278px;height: 185px;">
+                            <ul class="pages-list-inside">
+                                <h3>Order process</h3>
+                                <li>Shopping cart</li>
+                                <li>Checkout - Five steps <span class="new-icon-page">New</span></li>
+                                <li>Checkout - Single-page</li>
+                                <li>Checkout - confirmed</li>
+                                <li>Wishlist</li>
+                            </ul>
+
+                            <ul class="pages-list-inside">
+                                <h3>Product</h3>
+                                <li>Product with sticky info</li>
+                                <li>Product with background</li>
+                                <li>Product standard</li>
+                            </ul>
+                        </div>
+
+                        <div class="pages-lists">
+                            <img src="Images_blog/megamenu img3.jpg" alt="" style="width: 278px;height: 185px;">
+                            <ul class="pages-list-inside">
+                                <h3>Blog</h3>
+                                <li>Blog</li>
+                                <li>Blog - Masonry</li>
+                                <li>Post</li>
+                            </ul>
+
+                            <ul class="pages-list-inside">
+                                <h3>Pages</h3>
+                                <li><a href="C:\Users\Predator\Desktop\Front-End-Project\About\page.html" style="color: #868e96;text-decoration: none;">About - Company </a> <span class="new-icon-page">New</span></li>
+                                <li>About v.2 - Person <span class="new-icon-page">New</span></li>
+                                <li>F.A.Q. <span class="new-icon-page">New</span></li>
+                                <li><a href="C:\Users\Predator\Desktop\Front-End-Project\Contact\page.html" style="color: #868e96;text-decoration: none;">Contact </a></li>
+                                <li>Privacy policy <span class="new-icon-page">New</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="pages-lists">
+                            <img src="Images_blog/megamenu img4.jpg" alt="" style="width: 278px;height: 185px;">
+                            <ul class="pages-list-inside">
+                                <h3>Customer <span class="new-icon-page">New</span></h3>
+                                <li>Login/sign up <span class="new-icon-page">New</span></li>
+                                <li>Orders <span class="new-icon-page">New</span></li>
+                                <li>Order detail <span class="new-icon-page">New</span></li>
+                                <li>Order tracking <span class="new-icon-page">New</span></li>
+                                <li>Addresses <span class="new-icon-page">New</span></li>
+                                <li>Profile <span class="new-icon-page">New</span></li>
+                                <li>Wishlist <span class="new-icon-page">New</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="position: relative;">
+                    <li id="docs">Docs <i class="fa-solid fa-chevron-down" id="docs-arrow" style="color: #343a40;"></i></li>
+                    <div id="docs-list">
+                        <a href="">Introduction </a>
+                        <a href="">Directory structure </a>
+                        <a href="">Gulp</a>
+                        <a href="">Customizing CSS </a>
+                        <a href="">Credits</a>
+                        <a href="">Changelog </a>
+                        <a href="">Bootstrap </a>
+                        <a href="">Theme</a>
+                    </div>
+                </div>
+                </ul>
+
+                <ul class="header-bottom-right">
+                    <li>
+                        <div class="search">
+                            <input type="text" placeholder="Search">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #343a40;padding-right: 10px;"></i>
+                        </div>
+                    </li>
+                    <li><i class="fa-regular fa-user fa-xl left1" style="color: #343a40;"></i></li>
+                    <li><i class="fa-regular fa-heart fa-xl" style="color: #343a40;"></i></li>
+
+                    <div class="basket-container" style="position: relative;">
+                        <div id="product-count">0</div>
+                    <li id="basket"><i class="fa-solid fa-basket-shopping fa-xl" style="color: #343a40;"></i></li>
+            </div>
+
+            <li id="navbar">Navbar</li>
+            <div id="navbar-list" style="display: none;">
+                <i id="close-icon" class="fa-solid fa-x" style="color: #000000;margin-top: 45px;"></i>
+                <div class="navbar-list-container">
+                    <h5 class="title1">Varkala</h5>
+                    <a href="">Home</a>
+                    <a href="">Link</a>
+                    <a href="">Disabled</a>
+
+                    <div class="dropdown-list-container">
+                        <div href="" id="dropdown">Dropdown link<i class="fa-solid fa-chevron-down" id="dropdown-arrow" style="color: #868e96;margin-left: 10px;"></i></div>
+                        <div id="dropdown-list">
+                            <a href="">Action</a>
+                            <a href="">Another action</a>
+                            <a href="">Something else here</a>
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                        <i class="fa-solid fa-phone" style="color: #000000;"></i>
+                        020-800-456-747
+                    </div>
+                    <p class="paragraph3">Samsa was a travelling salesman - and above it there hung a <br> picture that he had recently cut out of an illustrated magazine <br> and housed in a nice, gilded frame.</p>
+                </div>
+            </div>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="blog">
+                <ul class="blog-container">
+                    <li class="gold-small">Home <span style="color: #868e96;">- Blog</span></li>
+                    <li class="title-big">Blog</li>
+                    <li class="paragraph" style="margin-top: 40px;width: 1100px;"><p>As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p></li>
+                </ul>
+            </div>
+
+            <div class="img-container" style="z-index: -1;">
+                <img src="Images_blog/blog-2.jpg" alt="" class="img-background">
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="items">
+            <div class="items-container">
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item1-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle change">Pellentesque habitant morbi</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item2-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Best books about Fashion</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item3-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Best books about Fashion</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item4-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Autumn fashion tips and <br> tricks</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item5-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Newest photo apps</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item6-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle change">Best books about Photography</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item2-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Best books about Fashion</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item1-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Pellentesque habitant morbi</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+                <div class="item" data-aos="zoom-in" data-aos-once="true">
+                    <img src="Images_blog/item3-img.jpg" alt="" style="width: 306px;height: 204px;">
+                    <a href="" class="title-middle">Best books about Fashion</a>
+                    <p class="gold-small">Fashion and style <span style="color: #868e96;">January 16, 2019</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="arrows">
+            <div class="arrows-container">
+                <div class="left">
+                    <i class="fa-solid fa-chevron-left" style="color: #868e96;"></i> Older posts
+                </div>
+
+                <div class="right">
+                    Newer posts <i class="fa-solid fa-chevron-right" style="color: #868e96;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="advantages">
+            <div class="advantages-container">
+                <div class="advantage-items">
+                    <div class="advantage-items-left">
+                        <i class="fa-solid fa-taxi fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="advantage-items-right">
+                        <h6 class="name3">Free shipping & return</h6>
+                        <p class="paragraph2">Free Shipping over $300</p>
+                    </div>
+                </div>
+
+                <div class="advantage-items">
+                    <div class="advantage-items-left">
+                        <i class="fa-brands fa-bitcoin fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="advantage-items-right">
+                        <h6 class="name3">Free shipping & return</h6>
+                        <p class="paragraph2">Free Shipping over $300</p>
+                    </div>
+                </div>
+
+                <div class="advantage-items">
+                    <div class="advantage-items-left">
+                        <i class="fa-solid fa-percent fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="advantage-items-right">
+                        <h6 class="name3">Free shipping & return</h6>
+                        <p class="paragraph2">Free Shipping over $300</p>
+                    </div>
+                </div>
+
+                <div class="advantage-items">
+                    <div class="advantage-items-left">
+                        <i class="fa-regular fa-user fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="advantage-items-right">
+                        <h6 class="name3">Free shipping & return</h6>
+                        <p class="paragraph2">Free Shipping over $300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+
+                <div class="footer-gmail">
+                    <h6 class="name3">Be in touch</h6>
+                    <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> At itaque temporibus.</p>
+                    <div class="gmail-input">
+                        <input type="text" placeholder="Your Email Address">
+                        <i class="fa-regular fa-envelope" style="color: #000000;padding-right: 10px;"></i>
+                    </div>
+                </div>
+
+                <div class="footer-list">
+                    <h6>Shop</h6>
+                    <ul>
+                        <li>For Women</li>
+                        <li>For Men</li>
+                        <li>Stores</li>
+                        <li>Our Blog</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+
+                <div class="footer-list">
+                    <h6>Company</h6>
+                    <ul>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Wishlist</li>
+                        <li>Our Products</li>
+                        <li>Checkouts</li>
+                    </ul>
+                </div>
+
+                <div class="footer-list">
+                    <h6>Your account</h6>
+                    <ul>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Wishlist</li>
+                        <li>Our Products</li>
+                        <li>Checkouts</li>
+                    </ul>
+                </div>
+
+                <div class="footer-line-list">
+                    <div class="footer-line">
+                        <h3>Shop</h3>
+                        <i class="fa-solid fa-plus" id="shop-plus" style="color: #000000;"></i>
+                    </div>
+
+                    <ul id='footer-shop-list'>
+                        <li>For Women</li>
+                        <li>For Men</li>
+                        <li>Stores</li>
+                        <li>Our Blog</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+
+                <div class="footer-line-list">
+                    <div class="footer-line">
+                        <h3>Company</h3>
+                        <i class="fa-solid fa-plus" id="company-plus" style="color: #000000;"></i>
+                    </div>
+
+                    <ul id='footer-company-list'>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Wishlist</li>
+                        <li>Our Products</li>
+                        <li>Checkouts</li>
+                    </ul>
+                </div>
+
+                <div class="footer-line-list">
+                    <div class="footer-line">
+                        <h3>Your account</h3>
+                        <i class="fa-solid fa-plus" id="account-plus" style="color: #000000;"></i>
+                    </div>
+
+                    <ul id='footer-account-list'>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Wishlist</li>
+                        <li>Our Products</li>
+                        <li>Checkouts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-last">
+            <div class="footer-last-container">
+                <p style="font-family: Arial, Helvetica, sans-serif;">© 2020 Your company.  All rights reserved.</p>
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy & cookies</li>
+                    <li>Accessibility</li>
+                    <li>Customer Data Promise</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script src="~/Blog/Js/parllax.js"></script>
+    <script src="~/Blog/Js/blog.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+}
+
+</html>

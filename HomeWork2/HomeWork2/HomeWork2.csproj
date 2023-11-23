@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\About\Images_about\" />
+    <Folder Include="wwwroot\About\js\" />
+    <Folder Include="wwwroot\Blog\Images_blog\" />
+    <Folder Include="wwwroot\Blog\Js\" />
+    <Folder Include="wwwroot\Index\Js\" />
+    <Folder Include="wwwroot\Index\Images_index\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Index\Images_index\book-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\box-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\chair-2-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\chair-transparent.png" />
+    <None Include="wwwroot\Index\Images_index\chair2-transparent.png" />
+    <None Include="wwwroot\Index\Images_index\chair3-3-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\clock-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\clock-transparent.png" />
+    <None Include="wwwroot\Index\Images_index\clock2-sq.jpg" />
+    <None Include="wwwroot\Index\Images_index\Item1-hover.jpg" />
+    <None Include="wwwroot\Index\Images_index\Item1.jpg" />
+    <None Include="wwwroot\Index\Images_index\item2-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item2.jpg" />
+    <None Include="wwwroot\Index\Images_index\item3-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item3.jpg" />
+    <None Include="wwwroot\Index\Images_index\item4-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item4.jpg" />
+    <None Include="wwwroot\Index\Images_index\item5-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item5.jpg" />
+    <None Include="wwwroot\Index\Images_index\item6-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item6.jpg" />
+    <None Include="wwwroot\Index\Images_index\item7-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item7.jpg" />
+    <None Include="wwwroot\Index\Images_index\item8-effect.jpg" />
+    <None Include="wwwroot\Index\Images_index\item8.jpg" />
+    <None Include="wwwroot\Index\Images_index\megamenu img1.jpg" />
+    <None Include="wwwroot\Index\Images_index\megamenu img2.jpg" />
+    <None Include="wwwroot\Index\Images_index\megamenu img3.jpg" />
+    <None Include="wwwroot\Index\Images_index\megamenu img4.jpg" />
+    <None Include="wwwroot\Index\Images_index\shop-img.jpg" />
+    <None Include="wwwroot\Index\Images_index\silder-img.png" />
+    <None Include="wwwroot\Index\Images_index\slide-img3.png" />
+    <None Include="wwwroot\Index\Js\index.js" />
+    <None Include="wwwroot\Index\Js\slide.js" />
+    <None Include="wwwroot\Index\Js\timer.js" />
+  </ItemGroup>
+
+</Project>
